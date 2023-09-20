@@ -68,3 +68,8 @@ print("Number of deletions are ",operations["deletions"])
 print("Number of insertions are ",operations["insertions"])
 print("Number of substitutions are ",operations["substitutions"])
     
+with open("result.txt", "w") as output_file:
+    output_file.write("Levenshtein Distance: {}\n".format(distance))
+    output_file.write("Deletions: {}\n".format(operations["deletions"]))
+    output_file.write("Insertions: {}\n".format(operations["insertions"]))
+    output_file.write("Substitutions: {}\n".format(operations["substitutions"]))

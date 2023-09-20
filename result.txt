@@ -1,0 +1,4 @@
+Levenshtein Distance: 5
+Deletions: 3
+Insertions: 0
+Substitutions: 2
